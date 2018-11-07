@@ -16,8 +16,6 @@ public class PalindromeNumber {
 
             temp = res*10 +tail;
 
-            /*if((temp-tail)/10 !=res)
-                return 0;*/
             res = temp;
             x = x/10;
         }
